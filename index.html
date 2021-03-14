@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <main class="container">
+            <header>
+                <div class="input"></div>
+                <div class="output"></div>
+            </header>
+            <section>
+                <div class="row first-row">
+                    <span role="button" class="clear" tabindex="0">C</span>
+                    <span role="button" tabindex="1">+/-</span>
+                    <span role="button" class="operator" tabindex="2">%</span>
+                    <span role="button" class="operator" tabindex="3">/</span>
+                </div>
+                <div class="row second-row">
+                    <span role="button" tabindex="4" class="number">7</span>
+                    <span role="button" tabindex="5" class="number">8</span>
+                    <span role="button" tabindex="6" class="number">9</span>
+                    <span role="button" tabindex="7" class="operator">x</span>
+                </div>
+                <div class="row third-row">
+                    <span role="button" tabindex="8" class="number">4</span>
+                    <span role="button" tabindex="9" class="number">5</span>
+                    <span role="button" tabindex="10" class="number">6</span>
+                    <span role="button" tabindex="11" class="operator">-</span>
+                </div>
+                <div class="row fourth-row">
+                    <span role="button" tabindex="12" class="number">1</span>
+                    <span role="button" tabindex="13" class="number">2</span>
+                    <span role="button" tabindex="14" class="number">3</span>
+                    <span role="button" tabindex="15" class="operator">+</span>
+                </div>
+                <div class="row fifth-row">
+                    <span role="button" tabindex="16" class="number">0</span>
+                    <span role="button" tabindex="17">,</span>
+                    <span role="button" tabindex="18" class="equals">=</span>
+                </div>
+            </section>
+        </main>
+        <div class="legend">
+            <p><kbd>space</kbd> : clear</p>
+            <p><kbd>enter</kbd> : calculate</p>
+            <p><kbd>backspace</kbd> : delete</p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
